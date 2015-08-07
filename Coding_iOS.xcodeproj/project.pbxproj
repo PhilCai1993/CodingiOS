@@ -227,10 +227,6 @@
 		4E8D5D6E1B45400100B70936 /* ZXScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D5D6D1B45400100B70936 /* ZXScanCodeViewController.m */; };
 		4E8D5D731B454D5000B70936 /* OTPAuthClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D5D721B454D5000B70936 /* OTPAuthClock.m */; };
 		4E8D5D7D1B462ADB00B70936 /* OTPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D5D7C1B462ADB00B70936 /* OTPTableViewCell.m */; };
-		4E90F89B1AF709C100B44F03 /* bubble.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E90F8971AF709C100B44F03 /* bubble.html */; };
-		4E90F89C1AF709C100B44F03 /* code.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E90F8981AF709C100B44F03 /* code.html */; };
-		4E90F89D1AF709C100B44F03 /* markdown.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E90F8991AF709C100B44F03 /* markdown.html */; };
-		4E90F89E1AF709C100B44F03 /* topic-ios.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E90F89A1AF709C100B44F03 /* topic-ios.html */; };
 		4E9113A21A1C426000AC9431 /* ASPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91139F1A1C426000AC9431 /* ASPopUpView.m */; };
 		4E9113A31A1C426000AC9431 /* ASProgressPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9113A11A1C426000AC9431 /* ASProgressPopUpView.m */; };
 		4E9113A91A1CB19900AC9431 /* icon_file_state_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9113A51A1CB19900AC9431 /* icon_file_state_download@2x.png */; };
@@ -1085,7 +1081,6 @@
 		4E8AF7851A53D69F00CDC3AE /* StartImagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartImagesManager.m; sourceTree = "<group>"; };
 		4E8AF7871A54068700CDC3AE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		4E8AF7891A5406AE00CDC3AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4E8C51AE1AC0177600B4C51F /* Coding_iOS-Prefix.pch.example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coding_iOS-Prefix.pch.example"; sourceTree = "<group>"; };
 		4E8C51AF1AC1081500B4C51F /* icon_recommended@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_recommended@2x.png"; sourceTree = "<group>"; };
 		4E8D5D2C1B44E03600B70936 /* convenient_2FA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "convenient_2FA@2x.png"; sourceTree = "<group>"; };
 		4E8D5D2D1B44E03600B70936 /* convenient_Project@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "convenient_Project@2x.png"; sourceTree = "<group>"; };
@@ -3047,7 +3042,6 @@
 				4EFE8DB81B3A5727004B7559 /* Launch Screen.xib */,
 				8EA6CF1719E240C40076D59C /* Coding_iOS-Info.plist */,
 				8EA6CF1819E240C40076D59C /* Coding_iOS-Prefix.pch */,
-				4E8C51AE1AC0177600B4C51F /* Coding_iOS-Prefix.pch.example */,
 				8EA6CF1919E240C40076D59C /* Coding_iOS.xcdatamodeld */,
 				8EA6CFC519E240C40076D59C /* Images.xcassets */,
 				8EA6CF5B19E240C40076D59C /* InfoPlist.strings */,
@@ -3939,7 +3933,7 @@
 		8E477008198770E700997D05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Coding;
 				TargetAttributes = {
 					8E47700F198770E700997D05 = {
@@ -4060,7 +4054,6 @@
 				4EE083DC1ADB736800CA342E /* service_terms.html in Resources */,
 				8E97CE541A0A3410006F9AD7 /* settingBtn_Nav@2x.png in Resources */,
 				4E6384011B33C18700D98648 /* task_activity_icon_update_priority@2x.png in Resources */,
-				4E90F89B1AF709C100B44F03 /* bubble.html in Resources */,
 				8E8F7B2D19EF6306006BA8BD /* btn_followed_not@2x.png in Resources */,
 				4EF17EE11B3C3112003CDD2D /* intro_tip_2@3x.png in Resources */,
 				4E6383DC1B3266C200D98648 /* mrpr_icon_fileChange@2x.png in Resources */,
@@ -4100,7 +4093,6 @@
 				4EF17ECD1B3C3112003CDD2D /* intro_dot_unselected@2x.png in Resources */,
 				8E97CEA01A0C7E26006F9AD7 /* coding_emoji_09@2x.png in Resources */,
 				0A06C2531AB9E57900AB3B03 /* map_annotation@2x.png in Resources */,
-				4E90F89C1AF709C100B44F03 /* code.html in Resources */,
 				4E07D30A1A4A9ACB009EDDF2 /* moreBtn_Nav@2x.png in Resources */,
 				4E6383FE1B33C18700D98648 /* task_activity_icon_update@2x.png in Resources */,
 				4E0849831A918A7F00BD27F6 /* coding_emoji_41@2x.png in Resources */,
@@ -4114,7 +4106,6 @@
 				8EA6D18F19E240C40076D59C /* tasks_all@2x.png in Resources */,
 				8EA6D16A19E240C40076D59C /* nav_project_topic@2x.png in Resources */,
 				4E96E7E51A1B537E0037C098 /* icon_file_zip@2x.png in Resources */,
-				4E90F89E1AF709C100B44F03 /* topic-ios.html in Resources */,
 				4EF17EDF1B3C3112003CDD2D /* intro_tip_1@3x.png in Resources */,
 				4E94C50E1B4D334B00EB668A /* pop_User@2x.png in Resources */,
 				4EFE8DAF1B3960E6004B7559 /* logo_coding_top@2x.png in Resources */,
@@ -4298,7 +4289,6 @@
 				4EF17ECC1B3C3112003CDD2D /* intro_dot_selected@3x.png in Resources */,
 				8E97CEAA1A0C7E26006F9AD7 /* coding_emoji_19@2x.png in Resources */,
 				4EB845331AB83C3B0030DC69 /* git_icon_fork@2x.png in Resources */,
-				4E90F89D1AF709C100B44F03 /* markdown.html in Resources */,
 				4EB845351AB83C3B0030DC69 /* git_icon_watch@2x.png in Resources */,
 				4E96E7E31A1B537E0037C098 /* icon_file_txt@2x.png in Resources */,
 				8EA6D18919E240C40076D59C /* task_normal@2x.png in Resources */,
@@ -4800,6 +4790,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yuanchuang Wang (6KJRVPP9CY)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -4881,6 +4872,7 @@
 					"$(PROJECT_DIR)/Coding_iOS/Vendor/UMENG",
 					"$(PROJECT_DIR)/Coding_iOS/Vendor/XGPush",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.coding.CodingForiOS;
 				PRODUCT_NAME = Coding_iOS;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4914,6 +4906,7 @@
 					"$(PROJECT_DIR)/Coding_iOS/Vendor/UMENG",
 					"$(PROJECT_DIR)/Coding_iOS/Vendor/XGPush",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.coding.CodingForiOS;
 				PRODUCT_NAME = Coding_iOS;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
